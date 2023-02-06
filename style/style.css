@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(216, 12%, 8%);
+}
+main {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  height: 425px;
+  background-color: #19202a;
+  border-radius: 2rem;
+}
+
+#icon-star {
+  display: -webkit-box;
+  transform: scale(1.15);
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 50%;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  padding: 0.75rem;
+}
+
+.content {
+  margin-top: 1.5rem;
+  color: white;
+  width: 80%;
+  margin-left: 3rem;
+}
+h1 {
+  font-size: 30px;
+}
+
+.text-p {
+  margin-top: 1.3rem;
+  color: hsl(217, 12%, 63%);
+  font-size: 16px;
+  line-height: 25px;
+}
+
+ul {
+  list-style: none;
+  display: -webkit-box;
+  margin-left: 3em;
+  margin-top: 1.3em;
+}
+
+.li-select {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  background-color: #252d37;
+  color: white;
+  font-size: 1em;
+}
+.li-select:hover {
+  background-color: hsl(217, 12%, 63%);
+}
+
+.btn {
+  font-family: "Overpass", sans-serif;
+  width: 80%;
+  margin-left: 3em;
+  padding: 1em 0;
+  text-align: center;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border: 0;
+  border-radius: 4em;
+  cursor: pointer;
+  margin-top: 2em;
+}
+.after {
+  display: none;
+}
+#after-tks {
+  margin: auto;
+  margin-top: 3.5em;
+  width: 37%;
+  display: -webkit-box;
+}
+.selec {
+  display: inline;
+  color: hsl(25, 97%, 53%);
+  font-weight: 700;
+  background-color: #252d37;
+  padding: 0.5em 1.5em;
+  border-radius: 2em;
+  align-items: center;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  margin-top: 1.4em;
+}
+#tks-sec {
+  margin: auto;
+  width: 72%;
+  margin-top: 4.5em;
+  text-align: center;
+}
+#tks-p {
+  margin-top: 1.4em;
+}
+.selected {
+  background-color: hsl(25, 97%, 53%);
+}
+.attribution {
+  font-size: 13px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 480px) {
+  main {
+    width: 90%;
+    height: 350px;
+  }
+
+  #icon-star {
+    transform: scale(1);
+    margin-top: 1.2rem;
+    margin-left: 1.2rem;
+  }
+  .content {
+    margin-top: 0.7rem;
+    width: 80%;
+    margin-left: 1.5rem;
+  }
+  h1 {
+    font-size: 27px;
+  }
+  .text-p {
+    margin-top: 0.5rem;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  ul {
+    width: 90%;
+    margin-left: 1.4em;
+    margin-top: 1em;
+  }
+  #selected {
+    margin: auto;
+  }
+
+  #after-tks {
+    margin-top: 2em;
+    width: 30%;
+  }
+}
+@media screen and (max-width: 456px) {
+  .selec {
+    font-size: 14px;
+    margin-bottom: 0;
+    width: 45%;
+    text-align: center;
+  }
+  #thanks {
+    margin-top: 0em;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  #icon-star {
+    transform: scale(1);
+    margin-top: 1.2rem;
+    margin-left: 1.2rem;
+  }
+  .content {
+    margin-top: 1rem;
+    width: 85%;
+    margin-left: 1.5rem;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  .text-p {
+    margin-top: 0.7rem;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  ul {
+    margin-left: 1em;
+    margin-top: 1em;
+  }
+
+  .li-select {
+    width: 2.6rem;
+    height: 2.6rem;
+    margin-right: 1rem;
+    font-size: 13px;
+  }
+
+  .btn {
+    width: 80%;
+    margin-left: 2em;
+    padding: 1em 0;
+    margin-top: 1.7em;
+  }
+  .selec {
+    font-size: 13px;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #icon-star {
+    transform: scale(1);
+    margin-top: 1.2rem;
+    margin-left: 1.2rem;
+  }
+  .content {
+    margin-top: 1rem;
+    width: 85%;
+    margin-left: 1.5rem;
+  }
+  h1 {
+    font-size: 22px;
+  }
+  .text-p {
+    margin-top: 0.7rem;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  ul {
+    margin-left: 1em;
+    margin-top: 1em;
+  }
+
+  .li-select {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+    font-size: 13px;
+  }
+
+  .btn {
+    width: 80%;
+    margin-left: 2em;
+    padding: 1em 0;
+    margin-top: 1.5em;
+  }
+  .selec {
+    text-align: center;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  ul {
+    margin-left: 1em;
+    margin-top: 1em;
+  }
+
+  .li-select {
+    width: 2.2rem;
+    height: 2.2rem;
+    margin-right: 1rem;
+    font-size: 13px;
+  }
+  .selec {
+    text-align: center;
+    width: 60%;
+  }
+}
