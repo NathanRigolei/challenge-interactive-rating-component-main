@@ -1,5 +1,7 @@
 # Frontend Mentor - Interactive rating component
 
+Link: https://nathanrigolei.github.io/challenge-interactive-rating-component-main/
+
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
